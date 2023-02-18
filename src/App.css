@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.blank{
+  color: red;
+  background-color: yellow;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.line{
+  width: 85%;
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  margin: .3em;
+  text-align: center;
+  font-weight: 100;
+}
+
+li{
+  text-transform: none;
+  text-emphasis-style: none;
+  text-decoration: none;
+  text-align: center;
+}
