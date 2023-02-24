@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 import './App.css';
 
 function App() {
@@ -6,8 +7,11 @@ function App() {
     <>
 
         <Navbar title="Vishesh" aboutText="About Vishesh"/>
+        <div className="container my-5">
+          <TextForm heading="Enter the Text to Analyse below"/>
+        </div>
+        
     </>
   );
 }
-
 export default App;
