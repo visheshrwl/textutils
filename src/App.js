@@ -23,7 +23,7 @@ function App() {
 
         <Navbar title="Vishesh" aboutText="About Vishesh" mode={mode} toggleMode={toggleMode}/>
         <div className="container my-5">
-        <TextForm heading="Enter the Text to Analyse below" mode = {}/>
+        <TextForm heading="Enter the Text to Analyse below" mode = {mode}/>
           {/* <About/> */}
         </div>
         
